@@ -18,7 +18,7 @@ body {
   background-color: #a99292;
 }
 
-.hero {
+.banner {
   text-align: left;
   padding: 4rem 2rem;
   background-color: #232222;
@@ -32,4 +32,13 @@ body {
   height: auto;
   margin-top: 1rem;
   border-radius: 50%;
+}
+
+.about-me {
+  text-align: left;
+  padding: 2rem;
+  background-color: #232222;
+  border-radius: 0.5rem;
+  border: 1px solid #222831;
+  color: #fff;
 }
