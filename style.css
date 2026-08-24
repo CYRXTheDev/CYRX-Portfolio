@@ -2,6 +2,7 @@ body {
   font-family: "Zen Dots", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #0b0d10;
 }
 
 .lead {
@@ -20,9 +21,10 @@ body {
 .hero {
   text-align: left;
   padding: 4rem 2rem;
-  background-color: #f8f9fa;
+  background-color: #232222;
   border-radius: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #222831;
+  color: #fff;
 }
 
 .logo-img {
