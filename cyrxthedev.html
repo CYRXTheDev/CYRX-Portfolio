@@ -19,7 +19,7 @@
   <body>
     <!-- NAVBAR STARTS HERE -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 py-2"
+      class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 py-2 fixed-top"
     >
       <div
         class="container-fluid px-4 d-flex justify-content-between align-items-center"
@@ -84,8 +84,11 @@
     <!-- MAIN CONTENT -->
     <main id="main" class="container my-5 text-center">
       <section class="banner">
-        <p class="display-6">Hi i'm, <br /></p>
-        <h1 class="display-1">CYRX <br />THE DEV_</h1>
+        <p class="display-6" style="color: #f0f4f8">Hi i'm, <br /></p>
+        <h1 class="display-1">
+          CYRX <br />
+          <span style="color: goldenrod">THE DEV_</span>
+        </h1>
         <hr />
         <p class="lead">
           BSIT Student, Aspiring Software Developer <br />
@@ -93,29 +96,58 @@
         </p>
         <img class="logo-img" src="images/github.png" alt="Github Logo" />
         <img class="logo-img" src="images/facebook.png" alt="Facebook Logo" />
+        <img class="logo-img" src="images/email.png" alt="Email logo" />
       </section>
 
       <br />
 
       <!-- ABOUT ME -->
-      <section id="aboutme" class="about-me">
-        <h4>About Me</h4>
-        <p>
-          Welcome to my Website! I'm an IT student on a journey to becoming a
-          Fullstack Software Developer. Right now, I'm building interactive
-          frontend interfaces with HTML, CSS, and Bootstrap, while constantly
-          expanding my skillset toward fullstack technologies. Beyond web
-          development, I have a strong interest in Cybersecurity and enjoy
-          diving into game development during my free time. I'm always open to
-          learning, collaborating, and working on impactful projects!
-        </p>
-        <figure>
-          <img class="about-img" src="images/user.png" alt="user icon" />
-          <figcaption>
-            18 <br />
-            Years Old
-          </figcaption>
-        </figure>
+      <section id="about-section" class="about">
+        <div class="about-container">
+          <div class="about-text">
+            <h2 class="section-title">
+              ABOUT ME
+              <span class="title-line"></span>
+            </h2>
+            <p>
+              I'm an IT student on a journey to becoming a Fullstack Software
+              Developer. Right now, I'm building interactive frontend interfaces
+              with HTML, CSS, and Bootstrap, while constantly expanding my
+              skillset toward fullstack technologies. Beyond web development, I
+              have a strong interest in Cybersecurity and enjoy diving into game
+              development during my free time. I'm always open to learning,
+              collaborating, and working on impactful projects!
+            </p>
+          </div>
+        </div>
+
+        <!--About me border(Current status)-->
+        <div class="stats-grid">
+          
+
+        <div class="stat-card">
+          <img src="images/graduate.png" alt="Graduation-hat" />
+          <h6>BSIT</h6>
+          <p>Student</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="images/fullstack.png" alt="code icon" />
+          <h6>Aspiring</h6>
+          <p>Fullstack Developer</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="images/cybersec.png" alt="Padlock" />
+          <h6>Interest in</h6>
+          <p>Cybersecurity</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="images/gamedev.png" alt="Game Dev" />
+          <h6>Interest in</h6>
+          <p>Game Development</p>
+        </div>
       </section>
     </main>
 
